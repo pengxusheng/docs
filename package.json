@@ -1,0 +1,8 @@
+{
+  "name": "writing",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "vuepress": "1.2.0"
+  }
+}

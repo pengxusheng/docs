@@ -119,7 +119,7 @@ TODO          text
 *.lock          text
 *.npmignore     text
 *.yaml          text
-*.yml           text
+*.yml           text eol=lf
 browserslist    text eol=lf
 Makefile        text
 makefile        text

@@ -17,8 +17,8 @@
 
 ## SOURCE CODE
 *.bat       text eol=crlf
-*.coffee    text eol=lf
-*.css       text eol=lf
+*.coffee    text
+*.css       text
 *.htm       text diff=html
 *.html      text diff=html
 *.inc       text
@@ -33,17 +33,17 @@
 *.pl        text
 *.py        text diff=python
 *.rb        text diff=ruby
-*.sass      text eol=lf
+*.sass      text
 *.scm       text
-*.scss      text eol=lf
+*.scss      text
 *.sh        text eol=lf
 *.sql       text
-*.styl      text eol=lf
+*.styl      text
 *.tag       text
-*.ts        text eol=lf
-*.tsx       text eol=lf
-*.vue       text eol=lf
-*.xml       text eol=lf
+*.ts        text
+*.tsx       text
+*.vue       text
+*.xml       text
 *.xhtml     text diff=html
 
 ## DOCKER
@@ -69,8 +69,8 @@ COPYING       text
 copyright     text
 *COPYRIGHT*   text
 INSTALL       text
-license       text eol=lf
-LICENSE       text eol=lf
+license       text
+LICENSE       text
 NEWS          text
 readme        text
 *README*      text
@@ -83,26 +83,26 @@ TODO          text
 *.handlebars  text
 *.hbs         text
 *.hbt         text
-*.jade        text eol=lf
+*.jade        text
 *.latte       text
 *.mustache    text
 *.njk         text
 *.phtml       text
 *.tmpl        text
-*.tpl         text eol=lf
+*.tpl         text
 *.twig        text
 
 ## LINTERS
-.csslintrc    text eol=lf
+.csslintrc    text
 .eslintrc     text eol=lf
-.htmlhintrc   text eol=lf
-.jscsrc       text eol=lf
-.jshintrc     text eol=lf
-.jshintignore text eol=lf
+.htmlhintrc   text
+.jscsrc       text
+.jshintrc     text
+.jshintignore text
 .stylelintrc  text eol=lf
 
 ## CONFIGS
-*.bowerrc       text eol=lf
+*.bowerrc       text
 *.cnf           text
 *.conf          text
 *.config        text

@@ -54,6 +54,7 @@ module.exports = {
       description: '开发文档',
     },
   },
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     logo: '/logo.png',
     nav,

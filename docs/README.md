@@ -8,4 +8,8 @@ actionLink: /guide/
 features:
 - title: CI
   details: 已支持 Travis CI 持续集成。
+- title: CI
+  details: 已支持 Travis CI 持续集成。
+- title: CI
+  details: 已支持 Travis CI 持续集成。
 ---

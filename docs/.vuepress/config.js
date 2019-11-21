@@ -57,9 +57,13 @@ module.exports = {
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     logo: '/logo.png',
-    nav,
-    sidebar,
-    lastUpdated: '上次更新',
     smoothScroll: true,
+    locales: {
+      '/': {
+        nav,
+        sidebar,
+        lastUpdated: '上次更新',
+      },
+    },
   },
 };

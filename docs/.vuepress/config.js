@@ -47,11 +47,18 @@ const sidebar = {
 
 module.exports = {
   base: '/docs/',
-  title: '文档',
-  description: '文档',
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+      title: '文档',
+      description: '开发文档',
+    },
+  },
   themeConfig: {
     logo: '/logo.png',
     nav,
     sidebar,
+    lastUpdated: '上次更新',
+    smoothScroll: true,
   },
 };

@@ -62,8 +62,20 @@ module.exports = {
       '/': {
         nav,
         sidebar,
-        lastUpdated: '上次更新',
+        lastUpdated: '更新时间'
       },
     },
   },
+  plugins: [
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          const moment = require('moment');
+          moment.locale(lang);
+          return moment(timestamp).fromNow();
+        },
+      },
+    ],
+  ],
 };
